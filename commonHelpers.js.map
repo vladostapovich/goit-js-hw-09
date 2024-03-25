@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":["../src/js/1-gallery.js"],"sourcesContent":["console.log(\"gallery\");\n"],"names":[],"mappings":"oCAAA,QAAQ,IAAI,SAAS"}
+{"version":3,"file":"commonHelpers.js","sources":["../src/js/1-gallery.js"],"sourcesContent":["import SimpleLightbox from 'simplelightbox';\nimport 'simplelightbox/dist/simple-lightbox.min.css';\nconst lightbox = new SimpleLightbox('.gallery a', {\n  /* options */\n});\n"],"names":["SimpleLightbox"],"mappings":"wIAEiB,IAAIA,EAAe,aAAc,CAElD,CAAC"}
