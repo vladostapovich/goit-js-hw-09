@@ -8,12 +8,24 @@
     
     <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
-    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-d3b5fc92.css">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-e7cc8a5c.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
-      <h1>Welcome to page 3</h1>
+      <div class="form-wrapper">
+        <form class="feedback-form" autocomplete="off">
+          <label class="form-lable">
+            Email
+            <input class="form-input" type="email" name="email" autofocus />
+          </label>
+          <label class="form-lable">
+            Message
+            <textarea class="form-textarea" name="message" rows="8"></textarea>
+          </label>
+          <button class="form-submit-btn" type="submit">Submit</button>
+        </form>
+      </div>
     </section>
 
     
