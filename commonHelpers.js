@@ -5,8 +5,8 @@ import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                
       class="gallery-image"
       src="${a}"
       data-source="${p}"
-      alt="${i}" width=360 length=200
+      alt="${i}" width=360 height=200
     />
   </a>
-</li>`).join("")}new t(".gallery a",{captionData:"alt",captionDelay:250});
+</li>`).join("")}new t(".gallery a",{captionsData:"alt",captionDelay:250});
 //# sourceMappingURL=commonHelpers.js.map
