@@ -79,13 +79,13 @@ function createMarkup(Array) {
       class="gallery-image"
       src="${preview}"
       data-source="${original}"
-      alt="${description}" width=360 length=200
+      alt="${description}" width=360 height=200
     />
   </a>
 </li>`
   ).join('');
 }
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionData: 'alt',
+  captionsData: 'alt',
   captionDelay: 250,
 });

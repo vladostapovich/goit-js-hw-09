@@ -39,8 +39,8 @@ form.addEventListener('input', () => {
 form.addEventListener('submit', event => {
   event.preventDefault();
 
-  const email = event.currentTarget.elements.email.value;
-  const message = event.currentTarget.elements.message.value;
+  const email = event.currentTarget.elements.email.value.trim();
+  const message = event.currentTarget.elements.message.value.trim();
 
   if (email === '' || message === '') {
     alert('fill in all');
